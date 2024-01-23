@@ -1,0 +1,18 @@
+{
+  "name": "making_a_digital_pet",
+  "version": "1.0.0",
+  "description": "Tamagotchi!",
+  "main": "script.js",
+  "scripts": {
+    "lite": "lite-server",
+    "start": "npm run lite"
+  },
+  "keywords": [
+    "tamagotchi"
+  ],
+  "author": "volodymyr_ruzhak",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}

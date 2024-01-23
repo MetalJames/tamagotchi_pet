@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Volodymyr Ruzhak" />
+    <meta name="description" content="Tamagotchi Assignment - My Pet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="style.css" />
+    <title>My Tamagotchi!</title>
+</head>
+<body>
+    <div class="header">
+        <h1 class="myPetName" id="putNameHere" style="text-align: center;"></h1>
+        <div class="flexContainer">
+            <div class="namePetBox">
+                <div class="row">
+                    <div id="startBtn">New Game</div>
+                    <div id="resetBtn">Start Over?</div>
+                </div>
+                <div class="row">
+                    <input type="text" id="nameOfThePet" name="name" placeholder="Name Your Pet*" value="" />
+                    <div id="submitBtn">Give the Name</div>
+                </div>
+                <br>
+                <p id="countToDeath" style="text-align:center;"></p>
+            </div>
+
+            <div class="outPutFields" id="gameActions">
+                <!-- <p id="countToDeath" style="text-align:center;"></p> -->
+                <p id="myPhrases" style="text-align: center;"></p>
+                <!-- <p id="foodPointsField" style="text-align: center;"></p> -->
+                <!-- <p id="myMoodsField" style="text-align: center;"></p> -->
+            </div>
+
+            <div>
+                <a id="goHomeBtn" href="index.html">Go Home</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="faceAndMood">
+        <object data="./img/character.svg" type="image/svg+xml" class="tStyle" id="obj"></object>
+    </div>
+
+        <!--button's section-->
+
+    <section>
+        <div class="emoji"><div class="myButton">Have a Drink</div>
+            <div class="buttonSetTwoHidden">
+                <object data="./img/buttonTwo.svg" type="image/svg+xml" class="bStyle" id="speedingMetabolismBtn"></object>
+                <object data="./img/buttonTwo.svg" type="image/svg+xml" class="bStyle" id="slowingMetabolismBtn"></object>
+            </div>
+        </div>
+
+        <div class="hiddenTest">
+            <div class="myButton">Food and Thanks</div>
+            <div class="buttonSetOneHidden">
+                <object data="./img/buttonThree.svg" type="image/svg+xml" class="bStyle" id="randomFoodBtn"></object>
+                <object data="./img/buttonThree.svg" type="image/svg+xml" class="bStyle" id="complimentBtn"></object>
+                <object data="./img/buttonThree.svg" type="image/svg+xml" class="bStyle" id="startTalkingBtn"></object>
+                <object data="./img/buttonThree.svg" type="image/svg+xml" class="bStyle" id="stopTalkingBtn"></object>
+            </div>
+        </div>
+
+        <div class="tellAstories"><div class="myButton">Tell a Story</div>
+            <div class="buttonSetThreeHidden">
+                <object data="./img/buttonOne.svg" type="image/svg+xml" class="bStyle" id="happyBtn"></object>
+                <object data="./img/buttonOne.svg" type="image/svg+xml" class="bStyle" id="sadBtn"></object>
+                <object data="./img/buttonOne.svg" type="image/svg+xml" class="bStyle" id="angryBtn"></object>
+                <object data="./img/buttonOne.svg" type="image/svg+xml" class="bStyle" id="jokeyBtn"></object>
+            </div>
+        </div>
+
+        <div class="faces"><div class="myButton">Emoji</div>
+            <div class="buttonSetFourHidden">
+                <object data="./img/button.svg" type="image/svg+xml" class="bStyle" id="btn0"></object>
+                <object data="./img/button.svg" type="image/svg+xml" class="bStyle" id="btn1"></object>
+                <object data="./img/button.svg" type="image/svg+xml" class="bStyle" id="btn2"></object>
+                <object data="./img/button.svg" type="image/svg+xml" class="bStyle" id="btn3"></object>
+            </div>
+        </div>
+    </section>
+
+    <input type="text" id="hiddenNameOfThePet" name="name" placeholder="Name Your Pet*" value="" />
+
+    <!-- GSAP library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <!-- Motion Path Plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/MotionPathPlugin.min.js"></script>
+    <!-- js file -->
+    <script src="script.js"></script>
+</body>
+</html>

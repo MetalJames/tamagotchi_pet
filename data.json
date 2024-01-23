@@ -1,0 +1,49 @@
+{
+    "petMood":[
+        {"choiceMood": "Angry", "sayingMood": "I'm so angry!!!"},  
+        {"choiceMood": "Happy", "sayingMood":  "I am very happy."},
+        {"choiceMood": "Sad", "sayingMood": "Leave me alone!"},
+        {"choiceMood": "Jokey", "sayingMood": "I invented a new word! Plagiarism :)"},
+        {"choiceMood": "Angry", "sayingMood":  "This makes me feel furious!!!"},
+        {"choiceMood": "Happy", "sayingMood": "Feel myself super happy."},
+        {"choiceMood": "Sad", "sayingMood": "My dreams are unreachable :("},
+        {"choiceMood": "Jokey", "sayingMood":  "You did not feed me enough, so I will eat YOU!"},
+        {"choiceMood": "Angry", "sayingMood": "I can not hold my self from biting you up!"},
+        {"choiceMood": "Happy", "sayingMood": "I'm feeling great, and I am a very alive!"},
+        {"choiceMood": "Sad", "sayingMood": "I need to talk to somebody."},
+        {"choiceMood": "Jokey", "sayingMood": "Rest in peace boiling water. You will be mist!"},
+        {"choiceMood": "Angry", "sayingMood": "I will be yelling as long as I need it!"},  
+        {"choiceMood": "Happy", "sayingMood":  "I'm flying in my dreams!"},
+        {"choiceMood": "Sad",  "sayingMood": "I do not want to talk to anyone."}, 
+        {"choiceMood": "Jokey", "sayingMood": "I hate Russian dolls… they're so full of themselves!"},
+        {"choiceMood": "Angry", "sayingMood": "Get lost, or I will lost you!"},
+        {"choiceMood": "Happy", "sayingMood":  "I finally got what I wanted for a long time!!!"},
+        {"choiceMood": "Sad", "sayingMood": "Sometimes I feel like I will never be myself anymore."},
+        {"choiceMood": "Jokey", "sayingMood": "How do you throw a space party? You planet!"}
+            ],
+    "petFood":[
+        {"foodName": "Perogies", "foodPoints": 8, "chanceOfFoodPoisoning": 0.2},
+        {"foodName": "Borshch", "foodPoints": 12, "chanceOfFoodPoisoning": 0.0},
+        {"foodName": "Poutine", "foodPoints": 5, "chanceOfFoodPoisoning": 0.1},
+        {"foodName": "Syrniki", "foodPoints": 7, "chanceOfFoodPoisoning": 0.3},
+        {"foodName": "Pizza", "foodPoints": 8, "chanceOfFoodPoisoning": 0.5},
+        {"foodName": "Hot-Dog", "foodPoints": 9, "chanceOfFoodPoisoning": 0.4},
+        {"foodName": "Fruit Salad", "foodPoints": 6, "chanceOfFoodPoisoning": 0.2},
+        {"foodName": "Lasagna", "foodPoints": 7, "chanceOfFoodPoisoning": 0.2},
+        {"foodName": "Pasta", "foodPoints": 12, "chanceOfFoodPoisoning": 0.3},
+        {"foodName": "Chocolate cake", "foodPoints": 4, "chanceOfFoodPoisoning": 0.4}
+            ]
+            ,
+    "compliments":[
+        "Mm, my friend saying this is so yummy!",
+        "This is the food of the Gods! Thanks from my friend.",
+        "Hey :) My friend said, I need to get to know how to make this delicious dish.",
+        "What a wonderful taste! Thanks from friend.",
+        "My friend saying thanks. Best PIZZA ever :)",
+        "Right now this is exactly what I need it! My friend love it!",
+        "Incredible how this ingredients taste together, friend saying - You are a chef!",
+        "Its not a surprise that this is one of the best italian dishes! My friend want some more pasta.",
+        "Italians for sure know how to make the best pasta! But you make it even better! My friend says - Thanks A Lot!",
+        "Nothing can be so tasty as a chocolate cake desert. My friend really like to eat chocolate cakes."
+    ]
+}

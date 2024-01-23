@@ -1,0 +1,420 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-image: url(../img/background.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: 'Ranchers', cursive;
+    letter-spacing: 1px;
+}
+
+/* entry page style */
+
+#entryPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, .8);
+    font-family: 'Times New Roman';
+    color: #f0f0f0;
+    width: 100%;
+    height: 100%;
+}
+
+#entryPage h1 {
+    font-size: 3vw;
+    margin-top: -3vw;
+    margin-bottom: 3vw;
+}
+
+#entryPage p {
+    text-align: center;
+    font-size: 1.6vw;
+    margin-bottom: 1.5vw;
+}
+
+#entryPage h3 {
+    font-size: 1.8vw;
+    margin-bottom: .9vw;
+}
+
+#entryPage ol {
+    font-size: 1.1vw;
+    line-height: 2vw;
+}
+
+#enterGameBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #8cba53;
+    background: #1db0ed;
+    color: #fff;
+    width: 160px;
+    text-decoration: none;
+    height:45px;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin: 20px 0;
+}
+
+#enterGameBtn:hover {
+    border: 3px solid #f1a81e;
+    background: #0000ff;
+    color: #f1a81e;
+    font-weight: 500;
+    width: 160px;
+    height:45px;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+/* tamagotchi style */
+
+.header {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30px;
+}
+
+.myPetName {
+    width: 100%;
+    height: 50px;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    color: #f19849;
+}
+
+.flexContainer {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.row {
+    display: flex;
+}
+
+#myPhrases {
+    display: flex;
+    
+}
+
+/* #complimentPhrase,
+#myMoodsField {
+    width: 250px;
+    height: 50px;
+    margin: auto 0;
+    padding: 3px;
+    border-left: 3px solid grey;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-right: 3px solid grey;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+#foodPointsField {
+    width: 200px;
+    height: 50px;
+    margin: auto 0;
+    padding: 3px;
+    border-left: 3px solid grey;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-right: 3px solid grey;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+} */
+
+#countToDeath {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    border: 3px solid #8cba53;
+    background: #1db0ed;
+    border-radius: 50%;
+    color: #fff;
+    /* margin: auto 0; */
+    padding: 3px;
+    /* border-left: 3px solid grey;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    border-right: 3px solid grey;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%; */
+}
+
+.outPutFields {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    height: 6vw;
+    font-size: 1.6vw;
+    /* border: 3px solid #e0e0e0; */
+    /* background-color: rgba(255, 255, 255, .5); */
+}
+
+.namePetBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+#nameOfThePet {
+    width: 130px;
+    height:30px;
+    margin-right: 5px;
+}
+
+#submitBtn,
+#startBtn,
+#resetBtn,
+#goHomeBtn {
+    border: 3px solid #8cba53;
+    background: #1db0ed;
+    color: #fff;
+    width: 130px;
+    text-decoration: none;
+    height:30px;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+#startBtn {
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+#submitBtn:hover,
+#startBtn:hover,
+#resetBtn:hover,
+#goHomeBtn:hover {
+    border: 3px solid #f1a81e;
+    background: #0000ff;
+    color: #f1a81e;
+    font-weight: 500;
+    width: 130px;
+    height:30px;
+    padding: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.faceAndMood {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -4vw;
+}
+
+.tStyle{
+    width: 25%; 
+    display: block;
+}
+
+
+/* extra stuff */
+
+
+section {
+    display: flex;
+    justify-content: space-evenly;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1vw;
+}
+
+.buttonSetOneHidden {
+    padding-top: 1vw;
+    visibility: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1000;
+}
+
+.buttonSetTwoHidden {
+    padding-top: 1vw;
+    visibility: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1000;
+}
+
+.buttonSetThreeHidden {
+    padding-top: 1vw;
+    visibility: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1000;
+}
+
+.buttonSetFourHidden {
+    padding-top: 1vw;
+    visibility: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    z-index: 1000;
+}
+
+.hiddenTest, .emoji,
+.tellAstories, .faces {
+    width: 10vw;
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hiddenTest:hover .buttonSetOneHidden,
+.emoji:hover .buttonSetTwoHidden,
+.tellAstories:hover .buttonSetThreeHidden,
+.faces:hover .buttonSetFourHidden{
+    visibility: visible;
+    cursor: pointer;
+}
+
+.myButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 40px;
+    font-size: 1.3vw;
+    color: #fff;
+    background-color: #f19849;
+    /* background-color: rgba(0, 0, 0, .3); */
+    cursor: pointer;
+    font-weight: bold;
+    border-left: 5px solid #ea4c48;
+    border-right: 5px solid #ea4c48;
+    /* border-left: 5px solid #28a44a;
+    border-right: 5px solid #28a44a; */
+    border-radius: 25px;
+}
+
+/* tamagotchi css */
+
+.cls-1 {
+    fill: #d1d3d4;
+}
+
+.cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6 {
+    stroke: #000;
+    stroke-miterlimit: 10;
+    stroke-width: 10px;
+}
+
+.cls-2 {
+    fill: #fff;
+}
+
+.cls-3 {
+    fill: #00a651;
+}
+
+.cls-4 {
+    fill: none;
+}
+
+.cls-5 {
+    fill: #58595b;
+}
+
+.cls-6 {
+    fill: #fff200;
+}
+
+/* button css */
+
+.cls-One {
+    fill: #fff;
+    stroke: none;
+    stroke-miterlimit: 10;
+}
+
+.cls-1_button {
+    fill: #fff;
+}
+
+.cls-1_button, .cls-2_button {
+    stroke: none;
+    stroke-miterlimit: 10;
+}
+
+.cls-2_button {
+    fill: none;
+    stroke-width: 3px;
+}
+
+.bStyle {
+    border-left: 3px solid #28a44a;
+    border-right: 3px solid #28a44a;
+    border-radius: 25px;
+}
+
+#btn0,
+#btn1,
+#btn2,
+#btn3,
+#angryBtn,
+#happyBtn,
+#sadBtn,
+#jokeyBtn,
+#speedingMetabolismBtn,
+#slowingMetabolismBtn {
+    width: 6vw;
+}
+
+#stopTalkingBtn,
+#startTalkingBtn,
+#randomFoodBtn,
+#complimentBtn {
+    width: 9.5vw;
+    height: 2.5vw;
+}
+
+object {
+    margin: 10px 10px 5px 10px;
+}
+
+#neutral,
+#happy,
+#sad,
+#laugh,
+#angry,
+#happyOne,
+#sadOne,
+#angryOne,
+#jokeyOne,
+#coffee,
+#warmMilk,
+#stop,
+#start,
+#feed,
+#compliment {
+    visibility: hidden;
+}
+
+#hiddenNameOfThePet {
+    display: none;
+}
